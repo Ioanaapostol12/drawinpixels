@@ -3,7 +3,7 @@ require_once realpath(__DIR__."/../src/class/database.php");
 
 define( 'DB_HOST', 'localhost' ); // set database host
 define( 'DB_USER', 'root' ); // set database user
-define( 'DB_PASS', 'asdx32' ); // set database password
+define( 'DB_PASS', '' ); // set database password
 define( 'DB_NAME', 'drawinpixels' ); // set database name
 define( 'DISPLAY_DEBUG', true ); //display db errors?
 
