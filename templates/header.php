@@ -6,14 +6,14 @@
             <div class="inner">
 
                 <!-- Logo -->
-                <h1><a href="index.html" id="logo">Draw in pixels</a></h1>
+                <h1><a href="/" id="logo">Draw in pixels</a></h1>
 
                 <!-- Nav -->
                 <nav id="nav">
                     <ul>
-                        <li class="current_page_item"><a href="index.html">Start </a></li>
+                        <li class="current_page_item"><a href="/">Start </a></li>
                         <li>
-                            <a href="Coursses.html">Cursuri</a>
+                            <a href="/cursuri">Cursuri</a>
                             <ul>
                                 <li><a href="Login.html">Expunerea corecta</a></li>
 
@@ -48,7 +48,7 @@
                 <br/>
                 <a href="#">Pixel - pas cu pas</a></h2>
 
-            <a href="login.html" class="button big icon fa-check-circle">Log in</a>
+            <a href="/user/login.php" class="button big icon fa-check-circle">Log in</a>
             <a href="signup.html" class="button big icon fa-check-circle">Sign up</a>
         </div>
 
