@@ -64,22 +64,13 @@ $database;
 
                 <div class="container-login100-form-btn">
                     <button class="login100-form-btn">
-                        Sign up
+                        Sing in
                     </button>
                 </div>
 
-                <div class="text-center p-t-12">
-						<span class="txt1">
-							Ai uitat
-						</span>
-                    <a class="txt2" href="#">
-                        Email / Parola?
-                    </a>
-                </div>
-
                 <div class="text-center p-t-136">
-                    <a class="txt2" href="#">
-                        Ai deja cont?
+                    <a class="txt2" href="/user/register.php">
+                        Nu ai inca cont?
                         <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
                     </a>
                 </div>

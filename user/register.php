@@ -43,6 +43,7 @@ $database;
             </div>
 
             <form class="login100-form validate-form" action="register_action.php" method="post">
+
 					<span class="login100-form-title">
 						Bine ai venit!
 					</span>
@@ -92,17 +93,8 @@ $database;
                     </button>
                 </div>
 
-                <div class="text-center p-t-12">
-						<span class="txt1">
-							Ai uitat
-						</span>
-                    <a class="txt2" href="#">
-                        Email / Parola?
-                    </a>
-                </div>
-
                 <div class="text-center p-t-136">
-                    <a class="txt2" href="#">
+                    <a class="txt2" href="/user/login.php">
                         Ai deja cont?
                         <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
                     </a>

@@ -13,26 +13,17 @@
                     <ul>
                         <li class="current_page_item"><a href="/">Start </a></li>
                         <li>
-                            <a href="/cursuri">Cursuri</a>
+                            <a href='/cursuri/index.php'>Cursuri</a>
                             <ul>
-                                <li><a href="Login.html">Expunerea corecta</a></li>
+                                <li><a href="/user/login.php">Expunerea corecta</a></li>
 
-                                <li>
-                                    <a href="Login.html">Reguli de compozitie</a>
-                                    <ul>
-                                        <li><a href="#">Lorem ipsum dolor</a></li>
-                                        <li><a href="#">Phasellus consequat</a></li>
-                                        <li><a href="#">Magna phasellus</a></li>
-                                        <li><a href="#">Etiam dolore nisl</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Veroeros feugiat</a></li>
-                                <li><a href="#">Magna phasellus</a></li>
+                                <li><a href="/user/login.php">Reguli de compozitie</a></li>
+
                             </ul>
                         </li>
-                        <li><a href="Gear.html">Echipament</a></li>
-                        <li><a href="Articles.html">Articole</a></li>
-                        <li><a href="Tips&tricks.html">Tips & Tricks</a></li>
+                        <li><a href='/Echipament/echipament.php'>Echipament</a></li>
+                        <li><a href='/articole/articole.php'>Articole</a></li>
+                        <li><a href='/tipsandtricks/tipsandtricks.php'>Tips & Tricks</a></li>
                     </ul>
                 </nav>
 
@@ -49,7 +40,7 @@
                 <a href="#">Pixel - pas cu pas</a></h2>
 
             <a href="/user/login.php" class="button big icon fa-check-circle">Log in</a>
-            <a href="signup.html" class="button big icon fa-check-circle">Sign up</a>
+            <a href="/user/register.php" class="button big icon fa-check-circle">Sign up</a>
         </div>
 
     </div>

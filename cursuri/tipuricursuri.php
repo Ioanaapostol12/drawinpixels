@@ -15,7 +15,7 @@
                             Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
                             consequat etiam.</p>
                         <footer>
-                            <a href='../user/login.php' class="button medium icon fa-arrow-circle-right">Descopera mai mult</a>
+                            <a href='../cursuri/expunere.php' class="button medium icon fa-arrow-circle-right">Descopera mai mult</a>
                         </footer>
                     </section>
                 </div>
@@ -30,7 +30,7 @@
                             Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
                             consequat etiam.</p>
                         <footer>
-                            <a href='../user/login.php' class="button medium icon fa-arrow-circle-right">Descopera mai mult</a>
+                            <a href='../cursuri/compozitie.php' class="button medium icon fa-arrow-circle-right">Descopera mai mult</a>
                         </footer>
                     </section>
                 </div>
