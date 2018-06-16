@@ -13,10 +13,12 @@
 
 
 -- Dumping database structure for drawinpixels
+DROP DATABASE IF EXISTS `drawinpixels`;
 CREATE DATABASE IF NOT EXISTS `drawinpixels` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `drawinpixels`;
 
 -- Dumping structure for table drawinpixels.comanda
+DROP TABLE IF EXISTS `comanda`;
 CREATE TABLE IF NOT EXISTS `comanda` (
   `nr_comanda` int(11) NOT NULL AUTO_INCREMENT,
   `tip_serviciu` varchar(30) NOT NULL,
@@ -41,7 +43,27 @@ INSERT INTO `comanda` (`nr_comanda`, `tip_serviciu`, `data_preluare`, `data_fina
 	(6, 'e-learning', '2018-04-30', '2018-05-02', 'ioanaapostol12', 'finalizata', 3);
 /*!40000 ALTER TABLE `comanda` ENABLE KEYS */;
 
+-- Dumping structure for table drawinpixels.courses
+DROP TABLE IF EXISTS `courses`;
+CREATE TABLE IF NOT EXISTS `courses` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `slug` varchar(255) NOT NULL,
+  `short_description` text,
+  `content` text,
+  `date_added` datetime DEFAULT CURRENT_TIMESTAMP,
+  `date_modified` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- Dumping data for table drawinpixels.courses: ~0 rows (approximately)
+/*!40000 ALTER TABLE `courses` DISABLE KEYS */;
+INSERT INTO `courses` (`id`, `name`, `slug`, `short_description`, `content`, `date_added`, `date_modified`) VALUES
+	(2, 'Expunerea Corecta', 'expunerea-corecta', 'asdasdas\r\n\r\nasd\r\nasd\r\nasd\r\nasd\r\na', '&lt;p&gt;Content !!!&lt;/p&gt;\r\n&lt;p&gt;&lt;img style=&quot;float: left;&quot; src=&quot;../../assets/images/pic02.jpg&quot; alt=&quot;&quot; width=&quot;100&quot; /&gt;asdasdas&lt;/p&gt;\r\n&lt;p style=&quot;text-align: left;&quot;&gt;asd&lt;/p&gt;\r\n&lt;p style=&quot;text-align: left;&quot;&gt;asd&lt;/p&gt;\r\n&lt;p style=&quot;text-align: left;&quot;&gt;asd&lt;/p&gt;\r\n&lt;p style=&quot;text-align: left;&quot;&gt;asd&lt;/p&gt;\r\n&lt;p&gt;a&lt;/p&gt;', '2018-06-16 21:32:09', '2018-06-16 22:06:43');
+/*!40000 ALTER TABLE `courses` ENABLE KEYS */;
+
 -- Dumping structure for table drawinpixels.cursuri
+DROP TABLE IF EXISTS `cursuri`;
 CREATE TABLE IF NOT EXISTS `cursuri` (
   `id_curs` int(11) NOT NULL AUTO_INCREMENT,
   `denumire` varchar(40) NOT NULL,
@@ -61,6 +83,7 @@ INSERT INTO `cursuri` (`id_curs`, `denumire`, `data_aparitie`, `data_modificare`
 /*!40000 ALTER TABLE `cursuri` ENABLE KEYS */;
 
 -- Dumping structure for table drawinpixels.facturi
+DROP TABLE IF EXISTS `facturi`;
 CREATE TABLE IF NOT EXISTS `facturi` (
   `nr_factura` int(11) NOT NULL AUTO_INCREMENT,
   `cod_factura` varchar(10) NOT NULL,
@@ -81,6 +104,7 @@ INSERT INTO `facturi` (`nr_factura`, `cod_factura`, `data`, `pret`) VALUES
 /*!40000 ALTER TABLE `facturi` ENABLE KEYS */;
 
 -- Dumping structure for table drawinpixels.linie comanda
+DROP TABLE IF EXISTS `linie comanda`;
 CREATE TABLE IF NOT EXISTS `linie comanda` (
   `id_comanda` varchar(20) NOT NULL,
   `data_realizare` date NOT NULL,
@@ -106,6 +130,7 @@ INSERT INTO `linie comanda` (`id_comanda`, `data_realizare`, `pret_total`, `nr_c
 /*!40000 ALTER TABLE `linie comanda` ENABLE KEYS */;
 
 -- Dumping structure for table drawinpixels.users
+DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
