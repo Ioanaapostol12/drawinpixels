@@ -116,18 +116,19 @@ CREATE TABLE IF NOT EXISTS `users` (
   `data_singup` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `phone` int(11) DEFAULT NULL,
   `address` text,
+  `role` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 
--- Dumping data for table drawinpixels.users: ~5 rows (approximately)
+-- Dumping data for table drawinpixels.users: ~6 rows (approximately)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` (`id`, `username`, `password`, `email`, `first_name`, `last_name`, `data_singup`, `phone`, `address`) VALUES
-	(1, 'helvigalexandra', '1234', 'helvigalexandra@gmail.com', 'Alexandra', 'Helvig', '2018-03-03 00:00:00', 764934990, 'Str. Lahovari 4'),
-	(2, 'ioanaapostol12', '1234', 'ioanaapostol12@yahoo.com', 'Ioana', 'Apostol', '2018-03-01 00:00:00', 764934980, 'str. Barsanesti 6'),
-	(3, 'manearobert', '1234', 'manearobert@yahoo.com', 'Robert', 'Manea', '2018-05-02 00:00:00', 745635982, 'Str. Banu Manta 56'),
-	(4, 'puiudiana', '1234', 'puiudiana@gmail.com', 'Diana', 'Puiu', '2018-04-25 00:00:00', 745935698, 'Bd. Preciziei 7'),
-	(5, 'raduandreea', '1234', 'raduandreea@yahoo.com', 'Andreea', 'Radu', '2018-04-23 00:00:00', 765649380, 'Str. Mariuca 5'),
-	(6, 'admin', '12345', 'u.valentin89@gmail.com', NULL, NULL, '2018-06-14 21:59:13', NULL, NULL);
+INSERT INTO `users` (`id`, `username`, `password`, `email`, `first_name`, `last_name`, `data_singup`, `phone`, `address`, `role`) VALUES
+	(1, 'helvigalexandra', '1234', 'helvigalexandra@gmail.com', 'Alexandra', 'Helvig', '2018-03-03 00:00:00', 764934990, 'Str. Lahovari 4', NULL),
+	(2, 'ioanaapostol12', '1234', 'ioanaapostol12@yahoo.com', 'Ioana', 'Apostol', '2018-03-01 00:00:00', 764934980, 'str. Barsanesti 6', NULL),
+	(3, 'manearobert', '1234', 'manearobert@yahoo.com', 'Robert', 'Manea', '2018-05-02 00:00:00', 745635982, 'Str. Banu Manta 56', NULL),
+	(4, 'puiudiana', '1234', 'puiudiana@gmail.com', 'Diana', 'Puiu', '2018-04-25 00:00:00', 745935698, 'Bd. Preciziei 7', NULL),
+	(5, 'raduandreea', '1234', 'raduandreea@yahoo.com', 'Andreea', 'Radu', '2018-04-23 00:00:00', 765649380, 'Str. Mariuca 5', NULL),
+	(6, 'admin', 'asdx32', 'u.valentin89@gmail.com', 'Ungureanu', 'Valentin', '2018-06-14 21:59:13', NULL, NULL, 'ROLE_ADMIN');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

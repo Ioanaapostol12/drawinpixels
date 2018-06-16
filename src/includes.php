@@ -16,3 +16,4 @@ function logOut(){
 
 require_once __BASEDIR__."/src/custom_scripts.php";
 require_once  __BASEDIR__."/config/database.php";
+require_once __BASEDIR__."/src/class/UserRepository.php";

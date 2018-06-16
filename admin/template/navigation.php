@@ -16,7 +16,11 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
             </a>
+
             <ul class="dropdown-menu dropdown-user">
+                <li>
+                    <a href="#"><i class="fa fa-user fa-fw"></i> Salut <?php echo $user->getFirstName()." ".$user->getLastName()?></a>
+                </li>
                 <li><a href="/user/logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                 </li>
             </ul>
@@ -31,6 +35,9 @@
             <ul class="nav" id="side-menu">
                 <li>
                     <a href="/admin"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                </li>
+                <li>
+                    <a href="/admin/users.php"><i class="fa fa-chevron-circle-left fa-fw"></i> Users</a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
