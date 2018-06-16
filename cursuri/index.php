@@ -36,11 +36,11 @@ $menu = 'cursuri'
                             <div class="6u 12u(mobile)">
                                 <section>
                                     <header class="major">
-                                        <h2><?php echo $course->getName() ?></h2>\
+                                        <h2><?php echo $course->getName() ?></h2>
                                     </header>
                                     <p><?php echo $course->getShortDescription()?></p>
                                     <footer>
-                                        <a href='../cursuri/expunere.php' class="button medium icon fa-arrow-circle-right">Descopera mai mult</a>
+                                        <a href='/cursuri/cursuri.php?curs=<?php echo $course->getSlug()?>' class="button medium icon fa-arrow-circle-right">Descopera mai mult</a>
                                     </footer>
                                 </section>
                             </div>
@@ -97,7 +97,6 @@ $menu = 'cursuri'
                                     </footer>
                                 </article>
                             </section>
-
                         </div>
                     </div>
                 </div>

@@ -16,6 +16,25 @@ class CourseRepository
         $this->database =  DB::getInstance();
     }
 
+    public function findOneBySlug($slug){
+        $querry = "SELECT * FROM `courses` WHERE `slug` = '".$slug."'";
+        $courseData = $this->database->get_row($querry,true);
+        if($courseData){
+            $course = new Course();
+
+            $course->setId($courseData->id);
+            $course->setName($courseData->name);
+            $course->setContent($courseData->content);
+            $course->setShortDescription($courseData->short_description);
+            $course->setSlug($courseData->slug);
+            $course->setDateAdded($courseData->date_added);
+            $course->setDateModified($courseData->date_modified);
+
+            return $course;
+        }
+        return $courseData;
+    }
+
     public function findOneById($id){
         $querry = "SELECT * FROM `courses` WHERE id = '".$id."'";
         $courseData = $this->database->get_row($querry,true);
