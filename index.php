@@ -1,5 +1,6 @@
 <?php
     require_once "src/includes.php";
+    $menu = 'index'
 ?>
 
 <html>

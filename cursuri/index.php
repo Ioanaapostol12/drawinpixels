@@ -1,4 +1,13 @@
+<?php
+include '../src/includes.php';
 
+if(!isLoggedIn()){
+    header("Location: /user/login.php");
+}
+
+
+$menu = 'cursuri'
+?>
 <html>
 <?php include "../templates/head.php"?>
 <body class="Coursses">
@@ -11,6 +20,46 @@
     <div id="main-wrapper">
         <div class="wrapper style3">
             <div class="inner">
+                <?php
+                if(isLoggedIn())
+                {
+                ?>
+                <!-- Feature 2 -->
+                <section class="container box feature2">
+                    <div class="row">
+                        <div class="6u 12u(mobile)">
+                            <section>
+                                <header class="major">
+                                    <h2>Diafragma, timp de expunere si ISO</h2>
+                                    <p>Si relatia dintre ele pentru o expunere corecta</p>
+                                </header>
+                                <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+                                    Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+                                    Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+                                    consequat etiam.</p>
+                                <footer>
+                                    <a href='../cursuri/expunere.php' class="button medium icon fa-arrow-circle-right">Descopera mai mult</a>
+                                </footer>
+                            </section>
+                        </div>
+                        <div class="6u 12u(mobile)">
+                            <section>
+                                <header class="major">
+                                    <h2>Reguli de compozitie</h2>
+                                    <p>Si cum ne ajuta sa realizam imagini captivante</p>
+                                </header>
+                                <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+                                    Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+                                    Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+                                    consequat etiam.</p>
+                                <footer>
+                                    <a href='../cursuri/compozitie.php' class="button medium icon fa-arrow-circle-right">Descopera mai mult</a>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <?php } ?>
                 <div class="container">
                     <div class="row">
                         <div class="8u 12u(mobile)">

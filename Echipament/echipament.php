@@ -1,9 +1,13 @@
+<?php
+include '../src/includes.php';
+$menu = 'echipament';
+?>
 <html>
 <?php include "../templates/head.php"?>
 <body class="Coursses">
 <div id="page-wrapper">
 
-    <?php include '../echipament/headerechipament.php'?>
+    <?php include '../templates/header.php'?>
 
     <div id="main-wrapper">
     <?php include '../echipament/postariechipament.php'?>

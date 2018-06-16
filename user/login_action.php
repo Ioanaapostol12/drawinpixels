@@ -30,7 +30,7 @@ if($response['success']){
     $userId = $database->get_row($query);
 
     if(reset($userId)){
-        header("Location: /");
+        header("Location: /cursuri");
 
         unset($_SESSION['response']);
         $_SESSION['user_id'] = reset($userId);
