@@ -7,7 +7,7 @@ define( 'DB_PASS', 'asdx32' ); // set database password
 define( 'DB_NAME', 'drawinpixels' ); // set database name
 define( 'DISPLAY_DEBUG', true ); //display db errors?
 
-//Initiate the class
+/** @var ../src/class/database.php $database */
 $database = DB::getInstance();
 
 if( isset( $_POST ) )

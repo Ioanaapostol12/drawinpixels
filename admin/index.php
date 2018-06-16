@@ -1,12 +1,10 @@
 <?php
 include "../src/includes.php";
 
-
-$userRepository = new UserRepository();
-$user = $userRepository->findOneById(isLoggedIn());
+$currentUser = $userRepository->findOneById(isLoggedIn());
 
 
-if(!$user || !$user->isAdmin())
+if(!$currentUser || !$currentUser->isAdmin())
 {
     header("Location: /user/login.php");
     die();

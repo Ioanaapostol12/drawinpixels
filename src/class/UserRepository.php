@@ -1,18 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: uvale
- * Date: 16-Jun-18
- * Time: 19:18
- */
 
 require_once realpath(__DIR__.'/../../config/database.php');
 require_once 'User.php';
 
 class UserRepository
 {
-    private $users;
-
     /**
      * @var ../../src/class/database/Database $database
      */

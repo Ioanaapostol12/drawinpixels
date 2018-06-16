@@ -19,7 +19,7 @@
 
             <ul class="dropdown-menu dropdown-user">
                 <li>
-                    <a href="#"><i class="fa fa-user fa-fw"></i> Salut <?php echo $user->getFirstName()." ".$user->getLastName()?></a>
+                    <a href="#"><i class="fa fa-user fa-fw"></i> Salut <?php echo $currentUser->getFirstName()." ".$currentUser->getLastName()?></a>
                 </li>
                 <li><a href="/user/logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                 </li>
@@ -40,10 +40,10 @@
                     <a href="/admin/users.php"><i class="fa fa-chevron-circle-left fa-fw"></i> Users</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                    <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Continut<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a href="flot.html">Flot Charts</a>
+                            <a href="/admin/content/cursuri.php">Cursuri</a>
                         </li>
                         <li>
                             <a href="morris.html">Morris.js Charts</a>

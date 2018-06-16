@@ -62,6 +62,7 @@ if($response['success']){
     if(!$response){
         $response['success'] = false;
         $response['error'] = "Eroare sql!";
+        var_dump($response);
     }else{
         unset($_SESSION['response']);
         header("Location: /cursuri/");
