@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bd3e4ee-1333-4286-a09f-bcad96664485" name="Default" comment="Added User Entity, User Repository, Users Admin">
-      <change afterPath="$PROJECT_DIR$/admin/content/cursuri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/content/cursuri_delete_action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/content/cursuri_save.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/content/cursuri_save_action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class/Course.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class/CourseRepository.php" afterDir="false" />
+    <list default="true" id="0bd3e4ee-1333-4286-a09f-bcad96664485" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/blank.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/blank.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/debug.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/template/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/template/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/class/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/includes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/includes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/register_action.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/register_action.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +25,7 @@
       <file leaf-file-name="navigation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/template/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="782">
               <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
             </state>
           </provider>
@@ -55,20 +40,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cursuri_save.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cursuri_save.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/content/cursuri_save.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="277">
+              <caret line="71" column="118" selection-start-line="71" selection-start-column="101" selection-end-line="71" selection-end-column="118" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cursuri_delete_action.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/content/cursuri_delete_action.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cursuri/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="413">
+              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drawinpixels.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/drawinpixels.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="133" column="36" lean-forward="true" selection-start-line="133" selection-start-column="36" selection-end-line="133" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Course.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/class/Course.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/class/CourseRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="73" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -76,20 +88,8 @@
       <file leaf-file-name="cursuri_save_action.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/content/cursuri_save_action.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="642" column="20" selection-start-line="642" selection-start-column="20" selection-end-line="642" selection-end-column="20" />
-              <folding>
-                <element signature="e#6#1100#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -97,17 +97,8 @@
       <file leaf-file-name="includes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/includes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="374">
+              <caret line="22" column="17" selection-start-line="22" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -131,6 +122,7 @@
       <find>VAR</find>
       <find>var</find>
       <find>varD</find>
+      <find>DIAFRAGMA, TIMP DE EXPUNERE SI ISO</find>
     </findStrings>
     <replaceStrings>
       <replace>/assets/images/</replace>
@@ -155,30 +147,30 @@
         <option value="$PROJECT_DIR$/user/login.php" />
         <option value="$PROJECT_DIR$/templates/header.php" />
         <option value="$PROJECT_DIR$/user/login_action.php" />
-        <option value="$PROJECT_DIR$/cursuri/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/admin/debug.php" />
         <option value="$PROJECT_DIR$/src/class/User.php" />
-        <option value="$PROJECT_DIR$/db/drawinpixels.sql" />
         <option value="$PROJECT_DIR$/admin/template/navigation.php" />
         <option value="$PROJECT_DIR$/admin/cursuri/cursuri.php" />
-        <option value="$PROJECT_DIR$/src/class/Course.php" />
         <option value="$PROJECT_DIR$/src/class/UserRepository.php" />
         <option value="$PROJECT_DIR$/src/includes.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/users.php" />
         <option value="$PROJECT_DIR$/admin/blank.php" />
         <option value="$PROJECT_DIR$/user/register_action.php" />
-        <option value="$PROJECT_DIR$/src/class/CourseRepository.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/admin/content/save_action.php" />
-        <option value="$PROJECT_DIR$/admin/content/cursuri_save_action.php" />
         <option value="$PROJECT_DIR$/admin/content/cursuri_delete_action.php" />
         <option value="$PROJECT_DIR$/admin/template/head.php" />
         <option value="$PROJECT_DIR$/admin/content/cursuri.php" />
+        <option value="$PROJECT_DIR$/src/class/Course.php" />
+        <option value="$PROJECT_DIR$/src/class/CourseRepository.php" />
         <option value="$PROJECT_DIR$/admin/content/cursuri_save.php" />
+        <option value="$PROJECT_DIR$/admin/content/cursuri_save_action.php" />
+        <option value="$PROJECT_DIR$/cursuri/index.php" />
+        <option value="$PROJECT_DIR$/db/drawinpixels.sql" />
       </list>
     </option>
   </component>
@@ -214,30 +206,7 @@
             <path>
               <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
               <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="cursuri" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
@@ -247,18 +216,7 @@
             <path>
               <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
               <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="Echipament" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,7 +226,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="getters&#9;ACTION&#9;PhpGenerateGettersAndSetters&#10;getter&#9;ACTION&#9;PhpGenerateGettersAndSetters&#10;getts&#9;ACTION&#9;PhpGenerateGettersAndSetters&#10;login_act&#9;FILE&#9;file://D:/work/vhosts/ucv.drawinpixels.home/user/login_action.php&#10;cursuri/index&#9;FILE&#9;file://D:/work/vhosts/ucv.drawinpixels.home/cursuri/index.php" />
+    <property name="SearchEverywhereHistoryKey" value="getter&#9;ACTION&#9;PhpGenerateGettersAndSetters&#10;getters&#9;ACTION&#9;PhpGenerateGettersAndSetters&#10;getts&#9;ACTION&#9;PhpGenerateGettersAndSetters&#10;login_act&#9;FILE&#9;file://D:/work/vhosts/ucv.drawinpixels.home/user/login_action.php&#10;cursuri/index&#9;FILE&#9;file://D:/work/vhosts/ucv.drawinpixels.home/cursuri/index.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -281,138 +239,6 @@
       <recent name="D:\work\vhosts\ucv.drawinpixels.home\assets" />
       <recent name="D:\work\vhosts\ucv.drawinpixels.home\user" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/css/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cursuri/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/includes.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/cursuri.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/header.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/login.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/login_action.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/register.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Echipament/echipament.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Echipament/headerechipament.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Echipament/obiective.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Echipament/postariechipament.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/articole/articole.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/articole/continutarticol.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cursuri/compozitie.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cursuri/expunere.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cursuri/tipuricursuri.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tipsandtricks/headertipsandtricks.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tipsandtricks/joacacufocul.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tipsandtricks/tipsandtricks.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/logout.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -438,6 +264,7 @@
       <updated>1528997657272</updated>
       <workItem from="1528997660863" duration="8173000" />
       <workItem from="1529164595466" duration="10567000" />
+      <workItem from="1529175263725" duration="908000" />
     </task>
     <task id="LOCAL-00001" summary="Added an admin template!">
       <created>1529165622560</created>
@@ -453,11 +280,32 @@
       <option name="project" value="LOCAL" />
       <updated>1529168950126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Admin Courses">
+      <created>1529175311394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529175311394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Courses short description,&#10;Added frontend courses!">
+      <created>1529176114857</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529176114857</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated Db file">
+      <created>1529176164679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1529176164679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19779000" />
+    <option name="totallyTimeSpent" value="20687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -466,13 +314,13 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.32943678" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49895832" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4984375" visible="true" weight="0.32943678" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -494,9 +342,19 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Added an admin template!" />
     <MESSAGE value="Added User Entity, User Repository, Users Admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added User Entity, User Repository, Users Admin" />
+    <MESSAGE value="Added Admin Courses" />
+    <MESSAGE value="Added Courses short description,&#10;Added frontend courses!" />
+    <MESSAGE value="Updated Db file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Db file" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/content/cursuri_save.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -535,13 +393,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-end-line="372" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index.html" />
     <entry file="file://$PROJECT_DIR$/assets/js/ie/PIE.htc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -563,13 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/Coursses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-end-line="350" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/template/Coursses.html" />
     <entry file="file://$PROJECT_DIR$/assets/vendor/tilt/tilt.jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -577,20 +423,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/Login_v1/Signup_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="48" selection-end-line="116" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/template/Login.html" />
+    <entry file="file://$PROJECT_DIR$/template/Login_v1/Signup_index.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_0.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -623,13 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cursuri/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -710,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/drawinpixels.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="128" column="79" lean-forward="true" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -731,24 +551,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/debug.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="56" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/debug.php" />
     <entry file="file://$PROJECT_DIR$/admin/blank.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class/Course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -773,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/class/CourseRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -787,16 +587,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/includes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/class/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="10557">
           <caret line="642" column="20" selection-start-line="642" selection-start-column="20" selection-end-line="642" selection-end-column="20" />
           <folding>
             <element signature="e#6#1100#0#PHP" expanded="true" />
@@ -811,24 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/content/cursuri_save_action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/vendor/tinymce/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vendor/tinymce/readme.md" />
     <entry file="file://$PROJECT_DIR$/admin/template/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="782">
           <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
         </state>
       </provider>
@@ -840,6 +619,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class/Course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class/CourseRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="73" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/content/cursuri.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -847,13 +647,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/vendor/tinymce-dist/tinymce.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/content/cursuri_save.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="277">
+          <caret line="71" column="118" selection-start-line="71" selection-start-column="101" selection-end-line="71" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/content/cursuri_save_action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cursuri/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drawinpixels.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="133" column="36" lean-forward="true" selection-start-line="133" selection-start-column="36" selection-end-line="133" selection-end-column="36" />
         </state>
       </provider>
     </entry>
