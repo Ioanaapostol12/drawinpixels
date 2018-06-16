@@ -37,7 +37,7 @@
                     <a href="/admin"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                 </li>
                 <li>
-                    <a href="/admin/users.php"><i class="fa fa-chevron-circle-left fa-fw"></i> Users</a>
+                    <a href="/admin/users.php"><i class="fa fa-users fa-fw"></i> Users</a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Continut<span class="fa arrow"></span></a>

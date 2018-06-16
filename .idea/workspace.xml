@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bd3e4ee-1333-4286-a09f-bcad96664485" name="Default" comment="Added tinymce">
-      <change afterPath="$PROJECT_DIR$/cursuri/cursuri.php" afterDir="false" />
+    <list default="true" id="0bd3e4ee-1333-4286-a09f-bcad96664485" name="Default" comment="Log Out&#10;Adaugat meniu global&#10;Fixat header.jpg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cursuri/compozitie.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cursuri/expunere.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cursuri/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cursuri/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cursuri/tipuricursuri.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class/CourseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/class/CourseRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipsandtricks/tipsandtricks.php" beforeDir="false" afterPath="$PROJECT_DIR$/tipsandtricks/tipsandtricks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/template/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/template/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cursuri/index.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -32,17 +27,35 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="1122">
+              <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cursuri.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cursuri/cursuri.php">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="29138">
+              <caret line="1714" column="33" selection-start-line="1714" selection-start-column="33" selection-end-line="1714" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articole.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/articole/articole.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="echipament.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Echipament/echipament.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -50,62 +63,44 @@
       <file leaf-file-name="tipsandtricks.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tipsandtricks/tipsandtricks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="7" lean-forward="true" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="221">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postariechipament.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Echipament/postariechipament.php">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="13" column="71" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="71" />
+            <state relative-caret-position="221">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/class/CourseRepository.php">
+      <file leaf-file-name="drawinpixels.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/drawinpixels.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+            <state relative-caret-position="87">
+              <caret line="140" column="61" lean-forward="true" selection-start-line="140" selection-start-column="61" selection-end-line="140" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/class/UserRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="joacacufocul.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tipsandtricks/joacacufocul.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="59" lean-forward="true" selection-end-line="54" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headertipsandtricks.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tipsandtricks/headertipsandtricks.php">
+      <file leaf-file-name="navigation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/template/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="includes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/includes.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cursuri/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="17" selection-start-line="22" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -123,30 +118,20 @@
       <find>pass</find>
       <find>button big icon fa-check-circle</find>
       <find>vara</find>
-      <find>header.jpg</find>
-      <find>images/header.jpg</find>
-      <find>erro</find>
-      <find>VAR</find>
-      <find>var</find>
-      <find>varD</find>
-      <find>DIAFRAGMA, TIMP DE EXPUNERE SI ISO</find>
-      <find>RUCSACUL FOTOTAGRAFULUI CALATOR</find>
-      <find>include</find>
-      <find>$course</find>
+      <find>header.jpc</find>
     </findStrings>
     <replaceStrings>
       <replace>/assets/images/</replace>
-      <replace>$article</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/cursuri.php" />
         <option value="$PROJECT_DIR$/templates/descriere.php" />
         <option value="$PROJECT_DIR$/templates/footer.php" />
         <option value="$PROJECT_DIR$/templates/postari.php" />
@@ -154,36 +139,37 @@
         <option value="$PROJECT_DIR$/templates/scripts.php" />
         <option value="$PROJECT_DIR$/src/class/database.php" />
         <option value="$PROJECT_DIR$/src/custom_scripts.php" />
-        <option value="$PROJECT_DIR$/user/register.php" />
+        <option value="$PROJECT_DIR$/user/register_action.php" />
+        <option value="$PROJECT_DIR$/db/drawinpixels.sql" />
         <option value="$PROJECT_DIR$/user/login.php" />
-        <option value="$PROJECT_DIR$/templates/header.php" />
+        <option value="$PROJECT_DIR$/user/register.php" />
+        <option value="$PROJECT_DIR$/template/Gear.html" />
+        <option value="$PROJECT_DIR$/Echipament/rucsaculpreview.php" />
+        <option value="$PROJECT_DIR$/Echipament/postariechipament.php" />
+        <option value="$PROJECT_DIR$/Echipament/obiective.php" />
+        <option value="$PROJECT_DIR$/articole/continutarticol.php" />
+        <option value="$PROJECT_DIR$/Echipament/headerechipament.php" />
+        <option value="$PROJECT_DIR$/tipsandtricks/headertipsandtricks.php" />
+        <option value="$PROJECT_DIR$/articole/headerarticole.php" />
+        <option value="$PROJECT_DIR$/tipsandtricks/joacacufocul.php" />
+        <option value="$PROJECT_DIR$/cursuri/headercursuri.php" />
+        <option value="$PROJECT_DIR$/cursuri/tipuricursuri.php" />
+        <option value="$PROJECT_DIR$/src/includes.php" />
+        <option value="$PROJECT_DIR$/user/logout.php" />
+        <option value="$PROJECT_DIR$/cursuri/accescursuri.php" />
         <option value="$PROJECT_DIR$/user/login_action.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/assets/sass/main.scss" />
-        <option value="$PROJECT_DIR$/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/admin/debug.php" />
-        <option value="$PROJECT_DIR$/src/class/User.php" />
-        <option value="$PROJECT_DIR$/admin/template/navigation.php" />
-        <option value="$PROJECT_DIR$/admin/cursuri/cursuri.php" />
-        <option value="$PROJECT_DIR$/src/class/UserRepository.php" />
-        <option value="$PROJECT_DIR$/src/includes.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
-        <option value="$PROJECT_DIR$/admin/users.php" />
-        <option value="$PROJECT_DIR$/admin/blank.php" />
-        <option value="$PROJECT_DIR$/user/register_action.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/admin/content/save_action.php" />
-        <option value="$PROJECT_DIR$/admin/content/cursuri_delete_action.php" />
-        <option value="$PROJECT_DIR$/admin/template/head.php" />
-        <option value="$PROJECT_DIR$/admin/content/cursuri.php" />
-        <option value="$PROJECT_DIR$/src/class/Course.php" />
-        <option value="$PROJECT_DIR$/admin/content/cursuri_save_action.php" />
-        <option value="$PROJECT_DIR$/db/drawinpixels.sql" />
-        <option value="$PROJECT_DIR$/admin/content/cursuri_save.php" />
-        <option value="$PROJECT_DIR$/tipsandtricks/tipsandtricks.php" />
+        <option value="$PROJECT_DIR$/templates/cursuri.php" />
         <option value="$PROJECT_DIR$/cursuri/index.php" />
-        <option value="$PROJECT_DIR$/cursuri/cursuri.php" />
-        <option value="$PROJECT_DIR$/src/class/CourseRepository.php" />
+        <option value="$PROJECT_DIR$/cursuri/expunere.php" />
+        <option value="$PROJECT_DIR$/cursuri/compozitie.php" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/articole/articole.php" />
+        <option value="$PROJECT_DIR$/templates/header.php" />
+        <option value="$PROJECT_DIR$/Echipament/echipament.php" />
+        <option value="$PROJECT_DIR$/tipsandtricks/tipsandtricks.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/admin/template/navigation.php" />
       </list>
     </option>
   </component>
@@ -194,14 +180,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/assets/vendor/tinymce/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="950" />
+    <option name="width" value="975" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -213,29 +197,44 @@
         <subPane>
           <expand>
             <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
+              <item name="drawinpixels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drawinpixels" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="cursuri" type="462c0819:PsiDirectoryNode" />
+              <item name="drawinpixels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drawinpixels" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="drawinpixels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drawinpixels" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="drawinpixels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drawinpixels" type="462c0819:PsiDirectoryNode" />
+              <item name="articole" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ucv.drawinpixels.home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucv.drawinpixels.home" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="drawinpixels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drawinpixels" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drawinpixels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drawinpixels" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drawinpixels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drawinpixels" type="462c0819:PsiDirectoryNode" />
+              <item name="tipsandtricks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drawinpixels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drawinpixels" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,22 +243,149 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="getter&#9;ACTION&#9;PhpGenerateGettersAndSetters&#10;getters&#9;ACTION&#9;PhpGenerateGettersAndSetters&#10;getts&#9;ACTION&#9;PhpGenerateGettersAndSetters&#10;login_act&#9;FILE&#9;file://D:/work/vhosts/ucv.drawinpixels.home/user/login_action.php&#10;cursuri/index&#9;FILE&#9;file://D:/work/vhosts/ucv.drawinpixels.home/cursuri/index.php" />
+    <property name="SearchEverywhereHistoryKey" value="main.css&#9;FILE&#9;file://C:/xampp/htdocs/drawinpixels/assets/css/main.css&#10;header.jpg:1&#9;FILE&#9;file://C:/xampp/htdocs/drawinpixels/assets/images/header.jpg&#10;cursuri/index&#9;FILE&#9;file://D:/work/vhosts/ucv.drawinpixels.home/cursuri/index.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\vhosts\ucv.drawinpixels.home\cursuri\template" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\vhosts\ucv.drawinpixels.home\cursuri" />
-      <recent name="D:\work\vhosts\ucv.drawinpixels.home\assets\vendor" />
-      <recent name="D:\work\vhosts\ucv.drawinpixels.home\assets\vendor\tinymce-dist" />
-      <recent name="D:\work\vhosts\ucv.drawinpixels.home\admin\content" />
-      <recent name="D:\work\vhosts\ucv.drawinpixels.home\admin\cursuri" />
+      <recent name="D:\work\vhosts\ucv.drawinpixels.home\user" />
+      <recent name="D:\work\vhosts\ucv.drawinpixels.home\assets\login" />
+      <recent name="D:\work\vhosts\ucv.drawinpixels.home\assets" />
+      <recent name="D:\work\vhosts\ucv.drawinpixels.home" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/admin/blank.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/admin/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/admin/template/navigation.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/admin/users.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/database.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cursuri/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/db/drawinpixels.sql</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/class/UserRepository.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/includes.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/register_action.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/admin/content/cursuri.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/admin/content/cursuri_delete_action.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/admin/content/cursuri_save.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/admin/content/cursuri_save_action.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/vendor/tinymce-dist</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/class/Course.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/class/CourseRepository.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/admin/debug.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,81 +410,47 @@
       <option name="presentableId" value="Default" />
       <updated>1528997657272</updated>
       <workItem from="1528997660863" duration="8173000" />
-      <workItem from="1529164595466" duration="10567000" />
-      <workItem from="1529175263725" duration="908000" />
-      <workItem from="1529180130727" duration="1419000" />
+      <workItem from="1529013578011" duration="2105000" />
+      <workItem from="1529057365736" duration="8595000" />
+      <workItem from="1529159864994" duration="3924000" />
+      <workItem from="1529163902869" duration="170000" />
+      <workItem from="1529164093921" duration="1478000" />
     </task>
-    <task id="LOCAL-00001" summary="Added an admin template!">
-      <created>1529165622560</created>
+    <task id="LOCAL-00001" summary="Log Out&#10;Adaugat meniu global&#10;Fixat header.jpg">
+      <created>1529163988656</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1529165622560</updated>
+      <updated>1529163988656</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added User Entity, User Repository, Users Admin">
-      <created>1529168950126</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1529168950126</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added Admin Courses">
-      <created>1529175311394</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1529175311394</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added Courses short description,&#10;Added frontend courses!">
-      <created>1529176114857</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1529176114857</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Updated Db file">
-      <created>1529176164679</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1529176164679</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added tinymce">
-      <created>1529180358901</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1529180358901</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22106000" />
+    <option name="totallyTimeSpent" value="24445000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.32943678" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49791667" visible="true" weight="0.32943678" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.71875" side_tool="true" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.28125" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49934897" visible="true" weight="0.32965517" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,14 +460,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Added an admin template!" />
-    <MESSAGE value="Added User Entity, User Repository, Users Admin" />
-    <MESSAGE value="Added Admin Courses" />
-    <MESSAGE value="Added Courses short description,&#10;Added frontend courses!" />
-    <MESSAGE value="Updated Db file" />
-    <MESSAGE value="Added tinymce" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tinymce" />
+    <MESSAGE value="Log Out&#10;Adaugat meniu global&#10;Fixat header.jpg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log Out&#10;Adaugat meniu global&#10;Fixat header.jpg" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/ie/PIE.htc">
@@ -385,21 +471,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/postari.php">
+    <entry file="file://$PROJECT_DIR$/templates/scripts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="136">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cursuri.php">
+    <entry file="file://$PROJECT_DIR$/templates/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="213">
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/Coursses.html" />
+    <entry file="file://$PROJECT_DIR$/template/Signup.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/vendor/tilt/tilt.jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -407,8 +495,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/Login.html" />
-    <entry file="file://$PROJECT_DIR$/template/Login_v1/Signup_index.html" />
+    <entry file="file://$PROJECT_DIR$/template/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/login/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/Login_v1/Signup_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="48" selection-end-line="116" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_0.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -423,6 +526,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/custom_scripts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -430,281 +540,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5270">
-          <caret line="310" column="9" selection-start-line="310" selection-start-column="9" selection-end-line="310" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11288">
-          <caret line="664" column="25" selection-start-line="664" selection-start-column="25" selection-end-line="664" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="1724" column="50" selection-start-line="1724" selection-start-column="50" selection-end-line="1724" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/dist/js/sb-admin-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/login_action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="57" column="97" lean-forward="true" selection-start-line="57" selection-start-column="97" selection-end-line="57" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/debug.php" />
-    <entry file="file://$PROJECT_DIR$/admin/blank.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/register_action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="74" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="55" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/class/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10557">
-          <caret line="642" column="20" selection-start-line="642" selection-start-column="20" selection-end-line="642" selection-end-column="20" />
+        <state relative-caret-position="7344">
+          <caret line="453" column="20" selection-start-line="453" selection-start-column="20" selection-end-line="453" selection-end-column="20" />
           <folding>
             <element signature="e#6#1100#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/content/cursuri_delete_action.php">
+    <entry file="file://$PROJECT_DIR$/user/register_action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/Gear.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <caret line="15" column="41" selection-end-line="351" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/vendor/tinymce/readme.md" />
-    <entry file="file://$PROJECT_DIR$/admin/template/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/template/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/class/Course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/content/cursuri.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/content/cursuri_save_action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/drawinpixels.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="152" column="32" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/content/cursuri_save.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cursuri/expunere.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cursuri/template/sidemenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Echipament/rucsaculpreview.php" />
     <entry file="file://$PROJECT_DIR$/Echipament/postariechipament.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="13" column="71" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="71" />
+        <state relative-caret-position="150">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tipsandtricks/headertipsandtricks.php">
+    <entry file="file://$PROJECT_DIR$/Echipament/obiective.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/Articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="350" column="7" lean-forward="true" selection-start-line="350" selection-start-column="7" selection-end-line="350" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tipsandtricks/tipsandtricks.php">
+    <entry file="file://$PROJECT_DIR$/template/Tips&amp;tricks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" lean-forward="true" selection-end-line="320" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/postari.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="7" lean-forward="true" selection-end-line="23" selection-end-column="7" />
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Echipament/headerechipament.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tipsandtricks/joacacufocul.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="59" lean-forward="true" selection-end-line="54" selection-end-column="10" />
+        <state relative-caret-position="323">
+          <caret line="19" column="97" lean-forward="true" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/Coursses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tipsandtricks/headertipsandtricks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="25" lean-forward="true" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cursuri/headercursuri.php" />
+    <entry file="file://$PROJECT_DIR$/articole/continutarticol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articole/headerarticole.php" />
+    <entry file="file://$PROJECT_DIR$/templates/descriere.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="96" column="57" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/includes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" selection-start-line="22" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cursuri/accescursuri.php" />
+    <entry file="file://$PROJECT_DIR$/cursuri/tipuricursuri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cursuri.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/login_action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cursuri/expunere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cursuri/compozitie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/header.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29138">
+          <caret line="1714" column="33" selection-start-line="1714" selection-start-column="33" selection-end-line="1714" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="1122">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articole/articole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cursuri/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="153">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/class/UserRepository.php">
+    <entry file="file://$PROJECT_DIR$/Echipament/echipament.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cursuri/cursuri.php">
+    <entry file="file://$PROJECT_DIR$/tipsandtricks/tipsandtricks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="221">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/class/CourseRepository.php">
+    <entry file="file://$PROJECT_DIR$/admin/template/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+        <state relative-caret-position="102">
+          <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drawinpixels.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="140" column="61" lean-forward="true" selection-start-line="140" selection-start-column="61" selection-end-line="140" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
