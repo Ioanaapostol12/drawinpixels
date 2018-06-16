@@ -106,8 +106,8 @@ if(isset($_GET['id']) && $_GET['id'] != ''){
     <!-- Custom Theme JavaScript -->
     <script src="/assets/dist/js/sb-admin-2.js"></script>
 
-    <script src="/assets/vendor/tinymce-dist/tinymce.min.js"></script>
-    <script src="/assets/vendor/tinymce-dist/jquery.tinymce.min.js"></script>
+    <script src="/assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="/assets/vendor/tinymce/jquery.tinymce.min.js"></script>
 
     <script>
         $('#content').tinymce(
