@@ -68,6 +68,11 @@ if(isset($_GET['id']) && $_GET['id'] != ''){
                             </div>
 
                             <div class="form-group">
+                                <label for="short_description">Descriere Scurta:</label>
+                                <textarea class="form-control" rows="5" id="short_description" name="short_description"><?php echo isset($response['userData'])?$response['userData']->getShortDescription():''?></textarea>
+                            </div>
+
+                            <div class="form-group">
                                 <label for="content">Content:</label>
                                 <textarea class="form-control" rows="5" id="content" name="content"><?php echo isset($response['userData'])?$response['userData']->getContent():''?></textarea>
                             </div>

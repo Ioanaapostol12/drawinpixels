@@ -25,6 +25,7 @@ class CourseRepository
             $course->setId($courseData->id);
             $course->setName($courseData->name);
             $course->setContent($courseData->content);
+            $course->setShortDescription($courseData->short_description);
             $course->setSlug($courseData->slug);
             $course->setDateAdded($courseData->date_added);
             $course->setDateModified($courseData->date_modified);
@@ -44,6 +45,7 @@ class CourseRepository
             $course->setId($courseData->id);
             $course->setName($courseData->name);
             $course->setContent($courseData->content);
+            $course->setShortDescription($courseData->short_description);
             $course->setSlug($courseData->slug);
             $course->setDateAdded($courseData->date_added);
             $course->setDateModified($courseData->date_modified);

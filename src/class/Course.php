@@ -5,6 +5,7 @@ class Course
     private $id;
     private $slug;
     private $name;
+    private $shortDescription;
     private $content;
     private $dateAdded;
     private $dateModified;
@@ -120,6 +121,25 @@ class Course
         $this->dateModified = $dateModified;
         return $this;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getShortDescription()
+    {
+        return $this->shortDescription;
+    }
+
+    /**
+     * @param mixed $shortDescription
+     * @return Course
+     */
+    public function setShortDescription($shortDescription)
+    {
+        $this->shortDescription = $shortDescription;
+        return $this;
+    }
+
 
 
 
